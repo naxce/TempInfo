@@ -56,12 +56,13 @@ TempInfo is more than just a temperature checker. Whether you are benchmarking o
 
 **Clone the repository**
    ```bash
-   git clone [https://github.com/naxce/TempInfo.git](https://github.com/naxce/TempInfo.git)
-   cd TempInfo
+   git clone https://github.com/naxce/HourFarmer.git
+   cd HourFarmer
+   ```
 
 **Download from [🇫​🇦​🇹​🇺​🇲​](https://fatum.cc/)**
    ```
    1. Download FatumInstaller
-   2. Choose TempInfo
+   2. Choose HourFarmer
    3. Install to prefered location
    ```
