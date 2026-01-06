@@ -14,7 +14,7 @@ TempInfo is more than just a temperature checker. Whether you are benchmarking o
 ![TempInfo Preview](TempInfoPreview.gif)
 
 > [!CAUTION]
-> - This application contains **hidden "Stress Test" features** that can **SIMULATE** critical system failure.
+> - This application contains **hidden features** that can **SIMULATE** critical system failure.
 > - Using system-level functions marked as risky is done **at the user's own risk**.
 > - **Administrator privileges** are highly recommended for full access to all hardware sensors.
 
