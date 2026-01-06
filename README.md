@@ -46,6 +46,12 @@ TempInfo is more than just a temperature checker. Whether you are benchmarking o
 
 ---
 
+## 📝 Changelog
+
+- For changelog, see [Releases​](https://github.com/naxce/TempInfo/releases)
+
+---
+
 ## 📦 Installation
 
 **Clone the repository**
