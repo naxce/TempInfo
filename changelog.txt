@@ -1,3 +1,4 @@
-TempInfo v1.0.1 Changelog
+TempInfo v1.1 Changelog
 
-(/) Migrated to .NET 9.0
+(+) Added copyright notice.
+(/) Migrated to .NET 10.0.

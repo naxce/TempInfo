@@ -44,6 +44,7 @@ namespace TempInfo
             icon = new PictureBox();
             minimizeButton = new PictureBox();
             closeButton = new PictureBox();
+            copyrightLabel = new Label();
             panelMobo.SuspendLayout();
             panelDrives.SuspendLayout();
             panelRAM.SuspendLayout();
@@ -229,6 +230,7 @@ namespace TempInfo
             pnlContainer.BackColor = Color.FromArgb(25, 20, 35);
             pnlContainer.Controls.Add(blowUpCPUPictureBox);
             pnlContainer.Controls.Add(blowUpCPUlabel);
+            pnlContainer.Controls.Add(copyrightLabel);
             pnlContainer.Controls.Add(panelCPUs);
             pnlContainer.Controls.Add(panelGPUs);
             pnlContainer.Controls.Add(panelRAM);
@@ -318,6 +320,17 @@ namespace TempInfo
             closeButton.MouseEnter += closeButton_MouseEnter;
             closeButton.MouseLeave += closeButton_MouseLeave;
             // 
+            // copyrightLabel
+            // 
+            copyrightLabel.AutoSize = true;
+            copyrightLabel.Font = FontLoader.GetFont(9F, FontStyle.Regular);
+            copyrightLabel.ForeColor = Color.DarkGray;
+            copyrightLabel.Location = new Point(1249, 378);
+            copyrightLabel.Name = "copyrightLabel";
+            copyrightLabel.Size = new Size(209, 22);
+            copyrightLabel.TabIndex = 8;
+            copyrightLabel.Text = "© 2025 fatum. All Rights Reserved.";
+            // 
             // TempInfoForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -372,5 +385,6 @@ namespace TempInfo
         private PictureBox icon;
         private PictureBox blowUpCPUPictureBox;
         private Label blowUpCPUlabel;
+        private Label copyrightLabel;
     }
 }
