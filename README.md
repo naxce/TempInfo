@@ -1,3 +1,5 @@
+# THE PROJECT IS ABANDONED AND WON'T BE UPDATED ANYMORE.
+
 # 🌡️ TempInfo
 
 **TempInfo** is a lightweight, advanced **hardware monitoring tool** designed to track your PC's vitals in real-time. Built on the LibreHardwareMonitor engine, it provides high-precision data for CPU, GPU, Motherboard, and RAM usage with a focus on gaming performance and visual clarity.
